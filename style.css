@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container-password{
+    background:#ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    
+}
+.header{
+    margin: auto;
+    background: blue;
+    color: #eff5f6;
+    font-size: 25px;
+     padding: 10px;
+}
+#pass-input{
+    width: 70%;
+    font-size: larger;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 10px;
+}
+#copy{
+    width:70px;
+    color: #fff;
+    background: blue;
+    font-size: larger;
+    border-radius: 5px;
+   border: none;
+   padding:8px;
+
+}
+.setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding: 0px 15px 0 15px;
+    margin: 15px;
+    font-size: larger;
+}
+#generate{
+    display: flex;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background: blue;
+    color: #eff5f6;
+    padding: 10px;
+    align-items: center;
+    font-size:28px;
+    font-weight: 300;
+    justify-content: center;
+    border:none;
+    outline: none;
+  
+}
+
